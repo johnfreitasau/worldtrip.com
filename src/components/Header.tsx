@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Image } from "@chakra-ui/react";
 
 export function Header() {
   return (
@@ -6,15 +6,11 @@ export function Header() {
       as="header"
       w="100%"
       maxWidth={1480}
-      // h="20"
-      // mx="auto"
-      pt="7"
-      // px="6"
+      padding="4"
       justifyContent="center"
-      // alignItems="center"
       backgroundColor="white"
     >
-      <img src="/images/logo.svg" alt="WorldTrip" />
+      <Image src="/images/logo.svg" alt="WorldTrip" marginY="1.688" />
     </Flex>
   );
 }
