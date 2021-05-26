@@ -7,7 +7,9 @@ import {
   Box,
   VStack,
   Heading,
+  Link as ChakraLink,
 } from "@chakra-ui/react";
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   Navigation,
@@ -15,10 +17,13 @@ import SwiperCore, {
   Mousewheel,
   Keyboard,
 } from "swiper/core";
+import { ContinentsProps } from "../../models";
 
 SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard]);
 
-export function Carousel() {
+export function Carousel({ continents }: ContinentsProps) {
+  console.log("CONTINENTS_CAROUSEL:", continents);
+
   return (
     <Flex as="section" direction="column" w="100%" align="center">
       <Divider w="90px" borderColor="gray.500" size="2px" />
@@ -38,7 +43,39 @@ export function Carousel() {
             keyboard={true}
             // className="mySwiper"
           >
-            <SwiperSlide>
+            {continents.map((continent) => (
+              <SwiperSlide key={continent.id}>
+                <Link href={`/continent/${continent.id}`} passHref>
+                  <ChakraLink color="transparent">
+                    <Flex
+                      as="section"
+                      w="100%"
+                      h="335px"
+                      justify="space-around"
+                      align="center"
+                    >
+                      <Image src="images/asia.jpeg" alt="asia" />
+
+                      <VStack
+                        spacing={5}
+                        maxW={520}
+                        align="center"
+                        justify="center"
+                        color="gray.50"
+                        position="absolute"
+                      >
+                        <Heading fontWeight="500">
+                          <Text>Asia</Text>
+                        </Heading>
+                        <Text fontSize="1.25rem">The oldest continent.</Text>
+                      </VStack>
+                    </Flex>
+                  </ChakraLink>
+                </Link>
+              </SwiperSlide>
+            ))}
+
+            {/* <SwiperSlide>
               <Flex
                 as="section"
                 w="100%"
@@ -65,31 +102,6 @@ export function Carousel() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <Flex
-                as="section"
-                w="100%"
-                h="335px"
-                justify="space-around"
-                align="center"
-              >
-                <Image src="images/asia.jpeg" alt="asia" />
-
-                <VStack
-                  spacing={5}
-                  maxW={520}
-                  align="center"
-                  justify="center"
-                  color="gray.50"
-                  position="absolute"
-                >
-                  <Heading fontWeight="500">
-                    <Text>Asia</Text>
-                  </Heading>
-                  <Text fontSize="1.25rem">The oldest continent.</Text>
-                </VStack>
-              </Flex>
-            </SwiperSlide>
-            <SwiperSlide>
               <Image src="images/europe.jpeg" alt="asia" />
             </SwiperSlide>
             <SwiperSlide>
@@ -100,7 +112,7 @@ export function Carousel() {
             </SwiperSlide>
             <SwiperSlide>
               <Image src="images/oceania.jpeg" alt="asia" />
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </Flex>
       </Flex>
