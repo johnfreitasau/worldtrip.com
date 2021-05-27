@@ -54,8 +54,7 @@ export function Carousel({ continents }: ContinentsProps) {
                       justify="space-around"
                       align="center"
                     >
-                      <Image src="images/asia.jpeg" alt="asia" />
-
+                      <Image src={continent.bannerImage} alt="asia" />
                       <VStack
                         spacing={5}
                         maxW={520}
@@ -65,9 +64,9 @@ export function Carousel({ continents }: ContinentsProps) {
                         position="absolute"
                       >
                         <Heading fontWeight="500">
-                          <Text>Asia</Text>
+                          <Text>{continent.name}</Text>
                         </Heading>
-                        <Text fontSize="1.25rem">The oldest continent.</Text>
+                        <Text fontSize="1.25rem">{continent.call}</Text>
                       </VStack>
                     </Flex>
                   </ChakraLink>
