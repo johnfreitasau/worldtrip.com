@@ -16,6 +16,7 @@ export interface ContinentProps {
     countries: number;
     languages: number;
     cities100: number;
+    bannerImage: string;
     cities: City[];
   };
 }

@@ -73,45 +73,6 @@ export function Carousel({ continents }: ContinentsProps) {
                 </Link>
               </SwiperSlide>
             ))}
-
-            {/* <SwiperSlide>
-              <Flex
-                as="section"
-                w="100%"
-                h="335px"
-                justify="space-around"
-                align="center"
-              >
-                <Image src="images/africa.jpeg" alt="africa" />
-
-                <VStack
-                  spacing={5}
-                  maxW={520}
-                  align="center"
-                  justify="center"
-                  color="gray.50"
-                  position="absolute"
-                >
-                  <Heading fontWeight="500">
-                    <Text>Africa</Text>
-                  </Heading>
-                  <Text fontSize="1.25rem">The oldest continent.</Text>
-                </VStack>
-              </Flex>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <Image src="images/europe.jpeg" alt="asia" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="images/north-america.jpeg" alt="asia" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="images/south-america.jpeg" alt="asia" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image src="images/oceania.jpeg" alt="asia" />
-            </SwiperSlide> */}
           </Swiper>
         </Flex>
       </Flex>

@@ -1,10 +1,10 @@
 import { ContinentProps } from "../../models";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { Box, Grid, GridItem, Flex } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 import { api } from "../../services/api";
 import { Header } from "../../components/Header";
-import { Banner } from "../../components/Banner";
+import { ContinentDetail } from "../../components/ContinentDetail";
 
 export default function Continent({ continent }: ContinentProps) {
   console.log("CONTINENT:", continent);
@@ -12,31 +12,37 @@ export default function Continent({ continent }: ContinentProps) {
   return (
     <>
       <Header />
-      <Banner />
-      <section>
-        <Flex direction="row" justifyContent="space-between">
-          <Box>
-            A Europa é, por convenção, um dos seis continentes do mundo.
-            Compreendendo a península ocidental da Eurásia, a Europa geralmente
-            divide-se da Ásia a leste pela divisória de águas dos montes Urais,
-            o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
-          </Box>
-          <Box>50 countries 60 languages 27 cities + 100</Box>
+      <Flex
+        as="section"
+        // h="500px"
+        // w="100%"
+        bgImage={`url(${continent.bannerImage})`}
+        backgroundPosition="center"
+        backgroundRepeat="no-repeat"
+        opacity="0.8"
+      >
+        <Flex
+          w="100%"
+          h="500px"
+          maxW={1160}
+          mx="auto"
+          justify="left"
+          align="flex-end"
+          padding="20"
+        >
+          <Heading
+            position="absolute"
+            color="gray.50"
+            fontWeight="semibold"
+            fontSize="5xl"
+            // mb="4rem"
+          >
+            {continent.name}
+          </Heading>
         </Flex>
-      </section>
-      <section>
-        Cities + 100
-        <Grid>
-          <GridItem>London</GridItem>
-          <GridItem>Paris</GridItem>
-          <GridItem>Rome</GridItem>
-          <GridItem>Prage</GridItem>
-          <GridItem>Amsterdam</GridItem>
-        </Grid>
-      </section>
-      <h1>{continent.name}</h1>
-      <h1>{continent.id}</h1>
-      <h1>{continent.countries}</h1>
+      </Flex>
+
+      <ContinentDetail continent={continent} />
     </>
   );
 }
