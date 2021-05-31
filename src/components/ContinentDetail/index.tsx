@@ -13,6 +13,7 @@ import { InfoOutlineIcon } from "@chakra-ui/icons";
 import { ContinentProps } from "../../models";
 import { ContinentAboutItem } from "./ContinentAboutItem";
 import { IoMdInformationCircleOutline } from "react-icons/io";
+import { CitiesPlus100 } from "./CitiesPlus100";
 
 export function ContinentDetail({ continent }: ContinentProps) {
   console.log("CONTINENT:", continent);
@@ -27,6 +28,7 @@ export function ContinentDetail({ continent }: ContinentProps) {
       marginLeft="auto"
       marginRight="auto"
       paddingTop="20"
+      paddingX="4"
     >
       <SimpleGrid columns={[1, null, 2]}>
         <Flex w="100%" maxW="600px" align="strech">
@@ -43,25 +45,16 @@ export function ContinentDetail({ continent }: ContinentProps) {
             icon={
               <Tooltip
                 hasArrow
-                label="Only the most popular cities are included."
+                label="The cities that are among the 100 most visited cities in the world."
                 size="md"
               >
-                <InfoOutlineIcon w={5} h={5} />
+                <InfoOutlineIcon w={4} h={4} color="gray.400" />
               </Tooltip>
             }
           />
         </Flex>
       </SimpleGrid>
-      <section>
-        Cities + 100
-        <Grid>
-          <GridItem>London</GridItem>
-          <GridItem>Paris</GridItem>
-          <GridItem>Rome</GridItem>
-          <GridItem>Prage</GridItem>
-          <GridItem>Amsterdam</GridItem>
-        </Grid>
-      </section>
+      <CitiesPlus100 />
       {/* <h1>{continent.name}</h1>
       <h1>{continent.id}</h1>
       <h1>{continent.countries}</h1> */}
