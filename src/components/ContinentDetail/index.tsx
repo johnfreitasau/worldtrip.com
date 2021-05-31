@@ -7,7 +7,9 @@ import {
   Flex,
   SimpleGrid,
   Icon,
+  Tooltip,
 } from "@chakra-ui/react";
+import { InfoOutlineIcon } from "@chakra-ui/icons";
 import { ContinentProps } from "../../models";
 import { ContinentAboutItem } from "./ContinentAboutItem";
 import { IoMdInformationCircleOutline } from "react-icons/io";
@@ -38,7 +40,15 @@ export function ContinentDetail({ continent }: ContinentProps) {
           <ContinentAboutItem
             number={continent.cities100}
             label="Cities + 100"
-            icon={<Icon as={IoMdInformationCircleOutline} color="gray.400" />}
+            icon={
+              <Tooltip
+                hasArrow
+                label="Only the most popular cities are included."
+                size="md"
+              >
+                <InfoOutlineIcon w={5} h={5} />
+              </Tooltip>
+            }
           />
         </Flex>
       </SimpleGrid>

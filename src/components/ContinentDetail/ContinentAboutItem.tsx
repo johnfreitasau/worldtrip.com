@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
-import { VStack, Text } from "@chakra-ui/react";
-
+import { VStack, Text, Tooltip } from "@chakra-ui/react";
+import { InfoOutlineIcon } from "@chakra-ui/icons";
 interface ContinentAboutItemProps {
   number: number;
   label: string;
