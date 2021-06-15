@@ -11,7 +11,7 @@ export default function Continent({ continent }: ContinentProps) {
 
   return (
     <>
-      <Header />
+      <Header isContinent />
       <Flex
         as="section"
         // h="500px"

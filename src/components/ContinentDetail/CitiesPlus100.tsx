@@ -13,8 +13,8 @@ import { CityCard } from "./CityCard";
 
 export function CitiesPlus100() {
   return (
-    <Box>
-      <Heading fontWeight="medium" fontSize="4xl">
+    <Box pt="20" pb="8">
+      <Heading fontWeight="medium" fontSize="4xl" pb="10">
         Cities + 100
       </Heading>
       <VStack as="section">
