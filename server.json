@@ -3,10 +3,10 @@
     {
       "id": "asia",
       "name": "Asia",
-      "call": "O maior dos continentes.",
+      "call": "The largest continent.",
       "callImage": "/images/asia/call.png",
       "bannerImage": "/images/asia/banner.jpeg",
-      "about": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+      "about": "Asia is the largest of the continents, both in area and population. It covers one-third of the solid parts of the Earth's surface and is responsible for home to nearly three-fifths of the world's population. Asia borders on the west side with Africa and Europe, and on the east side with the Pacific Ocean, Oceania and, to a lesser extent, North America, through the Bering Strait .",
       "countries": 50,
       "languages": 2300,
       "cities100": 51,
@@ -15,7 +15,7 @@
           "id": "bangkok",
           "name": "Bangkok",
           "image": "/images/asia/bangkok.png",
-          "country": "Tailândia",
+          "country": "Thailand",
           "code": "th"
         },
         {
@@ -27,65 +27,65 @@
         },
         {
           "id": "singapore",
-          "name": "Singapura",
+          "name": "Singapore",
           "image": "/images/asia/singapore.png",
-          "country": "Singapura",
+          "country": "Singapore",
           "code": "sg"
         },
         {
           "id": "dubai",
           "name": "Dubai",
           "image": "/images/asia/dubai.png",
-          "country": "Emirados Árabes Unidos",
+          "country": "United Arab Emirates",
           "code": "ae"
         },
         {
           "id": "delhi",
-          "name": "Deli",
+          "name": "Delhi",
           "image": "/images/asia/delhi.png",
-          "country": "Índia",
+          "country": "India",
           "code": "in"
         },
         {
           "id": "antalya",
-          "name": "Antália",
+          "name": "Antalya",
           "image": "/images/asia/antalya.png",
-          "country": "Turquia",
+          "country": "Turkey",
           "code": "tr"
         },
         {
           "id": "phuket",
           "name": "Phuket",
           "image": "/images/asia/phuket.png",
-          "country": "Tailândia",
+          "country": "Thailand",
           "code": "th"
         },
         {
           "id": "seoul",
-          "name": "Seul",
+          "name": "Seoul",
           "image": "/images/asia/seoul.png",
-          "country": "Coreia do Sul ",
+          "country": "South Korea",
           "code": "kr"
         },
         {
           "id": "agra",
           "name": "Agra",
           "image": "/images/asia/agra.png",
-          "country": "Índia",
+          "country": "India",
           "code": "in"
         },
         {
           "id": "osaka",
           "name": "Osaka",
           "image": "/images/asia/osaka.png",
-          "country": "Japão",
+          "country": "Japan",
           "code": "jp"
         },
         {
           "id": "chennai",
           "name": "Chennai",
           "image": "/images/asia/chennai.png",
-          "country": "Índia",
+          "country": "India",
           "code": "in"
         },
         {
@@ -104,7 +104,7 @@
         },
         {
           "id": "dammam",
-          "name": "Damã",
+          "name": "Dammam",
           "image": "/images/asia/dammam.png",
           "country": "Arábia Saudita",
           "code": "sa"
@@ -134,14 +134,14 @@
           "id": "da_nang",
           "name": "Da Nang",
           "image": "/images/asia/da_nang.png",
-          "country": "Vietnã",
+          "country": "Vietnam",
           "code": "vn"
         },
         {
           "id": "batam",
           "name": "Batam",
           "image": "/images/asia/batam.png",
-          "country": "Indonésia",
+          "country": "Indonesia",
           "code": "id"
         },
         {
@@ -155,7 +155,7 @@
           "id": "bangalore",
           "name": "Bangalore",
           "image": "/images/asia/bangalore.png",
-          "country": "Índia",
+          "country": "India",
           "code": "in"
         }
       ]
@@ -163,10 +163,10 @@
     {
       "id": "europe",
       "name": "Europe",
-      "call": "O continente mais antigo.",
+      "call": "The oldest continent.",
       "callImage": "/images/europe/call.jpeg",
       "bannerImage": "/images/europe/banner.jpeg",
-      "about": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "about": "Europe is, by convention, one of the six continents in the world. Comprising the western peninsula of Eurasia, Europe is generally divided from Asia to the east by the watershed of the Ural Mountains, the Ural River, the Caspian Sea, the Caucasus, and the Black Sea to the southeast.",
       "countries": 50,
       "languages": 60,
       "cities100": 29,
@@ -175,49 +175,49 @@
           "id": "london",
           "name": "Londres",
           "image": "/images/europe/london.png",
-          "country": "Reino Unido",
+          "country": "UK",
           "code": "gb"
         },
         {
           "id": "paris",
           "name": "Paris",
           "image": "/images/europe/paris.png",
-          "country": "França",
+          "country": "France",
           "code": "fr"
         },
         {
           "id": "roma",
           "name": "Roma",
           "image": "/images/europe/roma.png",
-          "country": "Itália",
+          "country": "Italy",
           "code": "it"
         },
         {
           "id": "praga",
           "name": "Praga",
           "image": "/images/europe/praga.png",
-          "country": "República Tcheca",
+          "country": "Czech republic",
           "code": "cz"
         },
         {
           "id": "amsterdam",
-          "name": "Amsterdã",
+          "name": "Amsterdam",
           "image": "/images/europe/amsterdam.png",
-          "country": "Holanda",
+          "country": "Netherlands",
           "code": "nl"
         },
         {
           "id": "barcelona",
           "name": "Barcelona",
           "image": "/images/europe/barcelona.png",
-          "country": "Espanha",
+          "country": "Spain",
           "code": "es"
         },
         {
           "id": "milan",
-          "name": "Milão",
+          "name": "Milan",
           "image": "/images/europe/milan.png",
-          "country": "Itália",
+          "country": "Italy",
           "code": "it"
         },
         {
@@ -231,47 +231,47 @@
           "id": "berlin",
           "name": "Berlin",
           "image": "/images/europe/berlin.png",
-          "country": "Alemanha",
+          "country": "Germany",
           "code": "de"
         },
         {
           "id": "athens",
-          "name": "Atenas",
+          "name": "Athens",
           "image": "/images/europe/athens.png",
-          "country": "Grécia",
+          "country": "Greece",
           "code": "gr"
         },
         {
           "id": "moscow",
-          "name": "Moscou",
+          "name": "Moscow",
           "image": "/images/europe/moscow.png",
-          "country": "Rússia",
+          "country": "Russia",
           "code": "ru"
         },
         {
           "id": "dublin",
           "name": "Dublin",
           "image": "/images/europe/dublin.png",
-          "country": "Irlanda",
+          "country": "Ireland",
           "code": "ie"
         },
         {
           "id": "florence",
-          "name": "Florença",
+          "name": "Florence",
           "image": "/images/europe/florence.png",
-          "country": "Itália",
+          "country": "Italy",
           "code": "it"
         },
         {
           "id": "brussels",
-          "name": "Bruxelas",
+          "name": "Brussels",
           "image": "/images/europe/brussels.png",
-          "country": "Bélgica",
+          "country": "Belgium",
           "code": "be"
         },
         {
           "id": "budapest",
-          "name": "Budapeste",
+          "name": "Budapest",
           "image": "/images/europe/budapest.png",
           "country": "Hungria",
           "code": "hu"
@@ -285,7 +285,7 @@
         },
         {
           "id": "copenhagen",
-          "name": "Copenhage",
+          "name": "Copenhagen",
           "image": "/images/europe/copenhagen.png",
           "country": "Dinamarca",
           "code": "dk"
@@ -294,41 +294,41 @@
           "id": "nice",
           "name": "Nice",
           "image": "/images/europe/nice.png",
-          "country": "França",
+          "country": "France",
           "code": "fr"
         }
       ]
     },
     {
       "id": "america",
-      "name": "América",
-      "call": "O novo continente.",
+      "name": "America",
+      "call": "The new continent.",
       "callImage": "/images/america/call.png",
       "bannerImage": "/images/america/banner.jpeg",
-      "about": "América é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros. O seu extremo oriental insular (não continental) encontra-se na Groenlândia, o Nordostrundingen, enquanto o ocidental localiza-se nas Aleutas. Já os extremos continentais (não insulares) são o cabo Príncipe de Gales, o extremo ocidental, no Alasca, e a ponta do Seixas, extremo oriental, no estado brasileiro da Paraíba.",
+      "about": "America is the continent located in the western hemisphere and extends, in a north-south direction, from the Arctic Ocean to Cape Horn, along about 15 thousand kilometers. Its eastern tip is insular (not continental) in Greenland, the Nordostrundingen, while the western end is located in the Aleutians. The continental (non-island) extremes are Cape Príncipe de Wales, the western tip, in Alaska, and the tip of Seixas, eastern tip, in the Brazilian state of Paraíba.",
       "countries": 35,
       "languages": 8,
       "cities100": 13,
       "cities": [
         {
           "id": "new_york",
-          "name": "Nova Iorque",
+          "name": "New York",
           "image": "/images/america/new_york.png",
-          "country": "Estados Unidos",
+          "country": "United States",
           "code": "us"
         },
         {
           "id": "miami",
           "name": "Miami",
           "image": "/images/america/miami.png",
-          "country": "Estados Unidos",
+          "country": "United States",
           "code": "us"
         },
         {
           "id": "los_angeles",
           "name": "Los Angeles",
           "image": "/images/america/los_angeles.png",
-          "country": "Estados Unidos",
+          "country": "United States",
           "code": "us"
         },
         {
@@ -340,44 +340,44 @@
         },
         {
           "id": "cancun",
-          "name": "Cancún",
+          "name": "Cancun",
           "image": "/images/america/cancun.png",
-          "country": "México",
+          "country": "Mexico",
           "code": "us"
         },
         {
           "id": "orlando",
           "name": "Orlando",
           "image": "/images/america/orlando.png",
-          "country": "Estados Unidos",
+          "country": "United States",
           "code": "us"
         },
         {
           "id": "toronto",
           "name": "Toronto",
           "image": "/images/america/toronto.png",
-          "country": "Canadá",
+          "country": "Canada",
           "code": "ca"
         },
         {
           "id": "vancouver",
           "name": "Vancouver",
           "image": "/images/america/vancouver.png",
-          "country": "Canadá",
+          "country": "Canada",
           "code": "ca"
         },
         {
           "id": "san_francisco",
-          "name": "São Francisco",
+          "name": "San Francisco",
           "image": "/images/america/san_francisco.png",
-          "country": "Estados Unidos",
+          "country": "United States",
           "code": "us"
         },
         {
           "id": "honolulu",
           "name": "Honolulu",
           "image": "/images/america/honolulu.png",
-          "country": "Estados Unidos",
+          "country": "United States",
           "code": "us"
         },
         {
@@ -398,18 +398,18 @@
           "id": "rio_de_janeiro",
           "name": "Rio de Janeiro",
           "image": "/images/america/rio_de_janeiro.png",
-          "country": "Brasil",
+          "country": "Brazil",
           "code": "br"
         }
       ]
     },
     {
       "id": "africa",
-      "name": "África",
-      "call": "O continente mais diverso.",
+      "name": "Africa",
+      "call": "The most diverse continent.",
       "callImage": "/images/africa/call.png",
       "bannerImage": "/images/africa/banner.jpeg",
-      "about": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005[1]), representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
+      "about": "Africa is the third largest continent (after Asia and America) with about 30 million square kilometers, covering 20.3% of the total land area of the planet. It is the second most populous continent on Earth (behind Asia) with about one billion people (estimated for 2005[1]), representing about one-seventh of the world's population, and 54 independent countries. It has transformed over the last decade into an increasingly Catholic continent.",
       "countries": 54,
       "languages": 3000,
       "cities100": 4,
@@ -418,14 +418,14 @@
           "id": "cairo",
           "name": "Cairo",
           "image": "/images/africa/cairo.png",
-          "country": "Egito",
+          "country": "Egypt",
           "code": "eg"
         },
         {
           "id": "johannesburg",
           "name": "Johannesburg",
           "image": "/images/africa/johannesburg.png",
-          "country": "África do Sul",
+          "country": "South Africa",
           "code": "za"
         },
         {
@@ -439,18 +439,18 @@
           "id": "hurghada",
           "name": "Hurghada",
           "image": "/images/africa/hurghada.png",
-          "country": "Egito",
+          "country": "Egypt",
           "code": "eg"
         }
       ]
     },
     {
       "id": "oceania",
-      "name": "Oceânia",
-      "call": "O continente das ilhas.",
+      "name": "Oceania",
+      "call": "The continent of islands.",
       "callImage": "/images/oceania/call.png",
       "bannerImage": "/images/oceania/banner.jpeg",
-      "about": "Oceânia é um continente composto por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
+      "about": "Oceania is a continent composed of several groups of islands in the Pacific Ocean (Polynesia, Melanesia and Micronesia). The term Oceania was coined in 1831 by the French explorer Dumont d'Urville. The term is used today in several languages to designate a geographic and political region comprising the continent of Australia and adjacent islands in the Pacific Ocean.",
       "countries": 16,
       "languages": 18,
       "cities100": 3,
@@ -459,21 +459,21 @@
           "id": "sydney",
           "name": "Sydney",
           "image": "/images/oceania/sydney.png",
-          "country": "Austrália",
+          "country": "Australia",
           "code": "au"
         },
         {
           "id": "melbourne",
           "name": "Melbourne",
           "image": "/images/oceania/melbourne.png",
-          "country": "Austrália",
+          "country": "Australia",
           "code": "au"
         },
         {
           "id": "auckland",
           "name": "Auckland",
           "image": "/images/oceania/auckland.png",
-          "country": "Nova Zelândia",
+          "country": "New Zealand",
           "code": "nz"
         }
       ]

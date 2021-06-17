@@ -1,10 +1,8 @@
 import {
   Divider,
-  Center,
   Text,
   Flex,
   Image,
-  Box,
   VStack,
   Heading,
   Link as ChakraLink,
@@ -22,8 +20,6 @@ import { ContinentsProps } from "../../models";
 SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard]);
 
 export function Carousel({ continents }: ContinentsProps) {
-  console.log("CONTINENTS_CAROUSEL:", continents);
-
   return (
     <Flex as="section" direction="column" w="100%" align="center">
       <Divider w="90px" borderColor="gray.500" size="2px" />
@@ -34,14 +30,23 @@ export function Carousel({ continents }: ContinentsProps) {
             <Text>So, choose your continent.</Text>
           </VStack>
         </Heading>
-        <Flex px="100" direction="column" mb="10" position="relative">
+        <Flex
+          w="100%"
+          h={["250px", "450px"]}
+          maxW="1240px"
+          mx="auto"
+          mb={["5", "10"]}
+        >
           <Swiper
             cssMode={true}
             navigation={true}
-            pagination={true}
+            pagination={{ clickable: true }}
             mousewheel={true}
             keyboard={true}
-            // className="mySwiper"
+            autoplay={{
+              delay: 4000,
+            }}
+            style={{ width: "100%", flex: "1" }}
           >
             {continents.map((continent) => (
               <SwiperSlide key={continent.id}>

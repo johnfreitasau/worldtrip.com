@@ -1,6 +1,5 @@
 import { ReactElement } from "react";
-import { VStack, Text, Tooltip } from "@chakra-ui/react";
-import { InfoOutlineIcon } from "@chakra-ui/icons";
+import { VStack, Text } from "@chakra-ui/react";
 interface ContinentAboutItemProps {
   number: number;
   label: string;
@@ -17,7 +16,7 @@ export function ContinentAboutItem({
       <Text fontSize="5xl" color="yellow.500">
         {number}
       </Text>
-      <Text fontSize="2xl">
+      <Text fontSize={["sm", "md", "2xl"]}>
         {label} {!!icon && icon}
       </Text>
     </VStack>

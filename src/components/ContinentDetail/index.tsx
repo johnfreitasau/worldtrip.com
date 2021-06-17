@@ -1,19 +1,8 @@
-import {
-  Text,
-  HStack,
-  Box,
-  Grid,
-  GridItem,
-  Flex,
-  SimpleGrid,
-  Icon,
-  Tooltip,
-} from "@chakra-ui/react";
+import { Text, Flex, SimpleGrid, Tooltip } from "@chakra-ui/react";
 import { InfoOutlineIcon } from "@chakra-ui/icons";
 import { ContinentProps } from "../../models";
 import { ContinentAboutItem } from "./ContinentAboutItem";
-import { IoMdInformationCircleOutline } from "react-icons/io";
-import { CitiesPlus100 } from "./CitiesPlus100";
+import { Cities } from "./Cities";
 
 export function ContinentDetail({ continent }: ContinentProps) {
   return (
@@ -24,10 +13,9 @@ export function ContinentDetail({ continent }: ContinentProps) {
       maxW={1160}
       marginLeft="auto"
       marginRight="auto"
-      paddingTop="20"
       paddingX="4"
     >
-      <SimpleGrid columns={[1, null, 2]}>
+      <SimpleGrid columns={[1, null, 2]} spacing="20" pt="20">
         <Flex w="100%" maxW="600px" align="strech">
           <Text fontSize="2xl" color="gray.500">
             {continent.about}
@@ -38,7 +26,7 @@ export function ContinentDetail({ continent }: ContinentProps) {
           <ContinentAboutItem number={continent.languages} label="languages" />
           <ContinentAboutItem
             number={continent.cities100}
-            label="Cities + 100"
+            label="Cities"
             icon={
               <Tooltip
                 hasArrow
@@ -51,7 +39,7 @@ export function ContinentDetail({ continent }: ContinentProps) {
           />
         </Flex>
       </SimpleGrid>
-      <CitiesPlus100 continent={continent} />
+      <Cities continent={continent} />
     </Flex>
   );
 }

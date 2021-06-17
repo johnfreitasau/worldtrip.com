@@ -1,15 +1,7 @@
-import { Image, Box, Text, Flex, VStack, Heading } from "@chakra-ui/react";
+import { Image, Text, Flex, VStack, Heading } from "@chakra-ui/react";
 
 export function Banner() {
   return (
-    // <Box>
-    //   <Image
-    //     src="/images/banner.svg"
-    //     alt="background"
-    //     position="relative"
-    //     width="100%"
-    //   />
-    // </Box>
     <Flex
       as="section"
       w="100%"
@@ -17,8 +9,15 @@ export function Banner() {
       bgGradient="linear(to-t, #072E4B, #01162B)"
       justify="space-around"
       align="center"
+      py="8.75rem"
     >
-      <VStack spacing={5} maxW={520} align="flex-start" color="grey.50">
+      <VStack
+        spacing={5}
+        maxW={520}
+        align="flex-start"
+        color="gray.50"
+        px={["4", "10", "15", "20"]}
+      >
         <Heading fontWeight="500">
           5 Continents,
           <Text>infinite possibilities.</Text>
@@ -27,11 +26,13 @@ export function Banner() {
           It's time to take the trip you've always dreamed of out off paper.
         </Text>
       </VStack>
+
       <Image
         src="/images/airplane.svg"
         width="100"
         mt="7rem"
         transform="rotate(3deg)"
+        display={["none", "none", "block"]}
       />
     </Flex>
   );

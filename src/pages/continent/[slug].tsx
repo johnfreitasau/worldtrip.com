@@ -7,39 +7,28 @@ import { Header } from "../../components/Header";
 import { ContinentDetail } from "../../components/ContinentDetail";
 
 export default function Continent({ continent }: ContinentProps) {
-  console.log("CONTINENT:", continent);
-
   return (
     <>
       <Header isContinent />
       <Flex
-        as="section"
-        // h="500px"
-        // w="100%"
         bgImage={`url(${continent.bannerImage})`}
-        backgroundPosition="center"
-        backgroundRepeat="no-repeat"
-        opacity="0.8"
+        h={["150px", "300px", "500px"]}
+        px={["0", "0", "36"]}
+        pt={["0", "0", "72"]}
+        bgPosition="center"
+        bgRepeat="no-repeat"
+        bgSize="cover"
+        align="center"
+        justify={["center", "center", "flex-start"]}
       >
-        <Flex
-          w="100%"
-          h="500px"
-          maxW={1160}
-          mx="auto"
-          justify="left"
-          align="flex-end"
-          padding="20"
+        <Heading
+          position="absolute"
+          color="gray.50"
+          fontWeight="semibold"
+          fontSize="5xl"
         >
-          <Heading
-            position="absolute"
-            color="gray.50"
-            fontWeight="semibold"
-            fontSize="5xl"
-            // mb="4rem"
-          >
-            {continent.name}
-          </Heading>
-        </Flex>
+          {continent.name}
+        </Heading>
       </Flex>
 
       <ContinentDetail continent={continent} />

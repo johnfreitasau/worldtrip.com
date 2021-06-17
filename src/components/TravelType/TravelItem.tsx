@@ -1,4 +1,4 @@
-import { Flex, Text, Image } from "@chakra-ui/react";
+import { Flex, Text, Image, useBreakpointValue } from "@chakra-ui/react";
 
 interface TravelItemProps {
   label: string;
@@ -6,10 +6,21 @@ interface TravelItemProps {
 }
 
 export function TravelItem({ label, image }: TravelItemProps) {
+  const isMobile = useBreakpointValue({
+    base: false,
+    sm: true,
+  });
+
   return (
-    <Flex direction="column" alignItems="center">
-      <Image src={`/images/${image}.svg`} size="7rem" alt="beach" />
-      <Text size="6" fontWeight="semibold" mt="6">
+    <Flex direction={["row", "column"]} alignItems="center">
+      {isMobile ? (
+        <Image src={`/images/${image}.svg`} size="7rem" alt="beach" />
+      ) : (
+        <Text color="yellow.400" fontSize="4xl" mr="2">
+          •
+        </Text>
+      )}
+      <Text fontSize={["md", "xl", "2xl"]} fontWeight="semibold" mt="6">
         {label}
       </Text>
     </Flex>
