@@ -18,7 +18,7 @@ export function Banner() {
       justify="space-around"
       align="center"
     >
-      <VStack spacing={5} maxW={520} align="flex-start" color="gray.50">
+      <VStack spacing={5} maxW={520} align="flex-start" color="grey.50">
         <Heading fontWeight="500">
           5 Continents,
           <Text>infinite possibilities.</Text>

@@ -61,8 +61,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     .get(`/continents/${slug}`)
     .then((response) => response.data);
 
-  console.log("continent:", continent);
-
   return {
     props: {
       continent,

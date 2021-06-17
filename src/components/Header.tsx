@@ -3,7 +3,7 @@ import { ChevronLeftIcon } from "@chakra-ui/icons";
 import Link from "next/link";
 
 interface HeaderProps {
-  isContinent: boolean;
+  isContinent?: boolean;
 }
 
 export function Header({ isContinent = false }: HeaderProps) {

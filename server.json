@@ -12,13 +12,6 @@
       "cities100": 51,
       "cities": [
         {
-          "id": "hong_kong",
-          "name": "Hong Kong",
-          "image": "/images/asia/hong_kong.png",
-          "country": "China",
-          "code": "cn"
-        },
-        {
           "id": "bangkok",
           "name": "Bangkok",
           "image": "/images/asia/bangkok.png",
@@ -47,20 +40,6 @@
           "code": "ae"
         },
         {
-          "id": "kuala_lumpur",
-          "name": "Kuala Lumpur",
-          "image": "/images/asia/kuala_lumpur.png",
-          "country": "Malásia",
-          "code": "my"
-        },
-        {
-          "id": "istanbul",
-          "name": "Istanbul",
-          "image": "/images/asia/istanbul.png",
-          "country": "Turquia",
-          "code": "tr"
-        },
-        {
           "id": "delhi",
           "name": "Deli",
           "image": "/images/asia/delhi.png",
@@ -75,67 +54,11 @@
           "code": "tr"
         },
         {
-          "id": "shenzhen",
-          "name": "Shenzhen",
-          "image": "/images/asia/shenzhen.png",
-          "country": "China",
-          "code": "cn"
-        },
-        {
-          "id": "mumbai",
-          "name": "Bombaim",
-          "image": "/images/asia/mumbai.png",
-          "country": "Índia",
-          "code": "in"
-        },
-        {
           "id": "phuket",
           "name": "Phuket",
           "image": "/images/asia/phuket.png",
           "country": "Tailândia",
           "code": "th"
-        },
-        {
-          "id": "tokyo",
-          "name": "Tóquio",
-          "image": "/images/asia/tokyo.png",
-          "country": "Japão",
-          "code": "jp"
-        },
-        {
-          "id": "pattaya",
-          "name": "Pattaya",
-          "image": "/images/asia/pattaya.png",
-          "country": "Tailândia",
-          "code": "th"
-        },
-        {
-          "id": "taipei",
-          "name": "Taipé",
-          "image": "/images/asia/taipei.png",
-          "country": "Taiwan",
-          "code": "tw"
-        },
-        {
-          "id": "mecca",
-          "name": "Mecca",
-          "image": "/images/asia/mecca.png",
-          "country": "Arábia Saudita",
-          "code": "sa"
-        },
-        {
-          "id": "guangzhou",
-          "name": "Cantão",
-          "image": "/images/asia/guangzhou.png",
-          "country": "China",
-          "code": "cn"
-        },
-        {
-          "id": "medina",
-          "name": "Medina",
-          "image": "/images/asia/medina.png",
-          "country": "Arábia Saudita",
-          "code": "sa"
         },
         {
           "id": "seoul",
@@ -159,39 +82,11 @@
           "code": "jp"
         },
         {
-          "id": "shanghai",
-          "name": "Xangai",
-          "image": "/images/asia/shanghai.png",
-          "country": "China",
-          "code": "cn"
-        },
-        {
-          "id": "ho_chi_minh",
-          "name": "Ho Chi Minh",
-          "image": "/images/asia/ho_chi_minh.png",
-          "country": "Vietnã",
-          "code": "vn"
-        },
-        {
-          "id": "denpasar",
-          "name": "Denpasar",
-          "image": "/images/asia/denpasar.png",
-          "country": "Indonésia",
-          "code": "id"
-        },
-        {
           "id": "chennai",
           "name": "Chennai",
           "image": "/images/asia/chennai.png",
           "country": "Índia",
           "code": "in"
-        },
-        {
-          "id": "johor_bahru",
-          "name": "Johor Bahru",
-          "image": "/images/asia/johor_bahru.png",
-          "country": "Malásia",
-          "code": "my"
         },
         {
           "id": "jaipur",
@@ -201,46 +96,11 @@
           "code": "in"
         },
         {
-          "id": "riyadh",
-          "name": "Riad",
-          "image": "/images/asia/riyadh.png",
-          "country": "Arábia Saudita",
-          "code": "sa"
-        },
-        {
-          "id": "ha_noi",
-          "name": "Hanói",
-          "image": "/images/asia/ha_noi.png",
-          "country": "Vietnã",
-          "code": "vn"
-        },
-        {
-          "id": "jakarta",
-          "name": "Jacarta",
-          "image": "/images/asia/jakarta.png",
-          "country": "Indonésia",
-          "code": "id"
-        },
-        {
-          "id": "ha_long",
-          "name": "Ha Long",
-          "image": "/images/asia/ha_long.png",
-          "country": "Vietnã",
-          "code": "vn"
-        },
-        {
           "id": "beijing",
           "name": "Pequim",
           "image": "/images/asia/beijing.png",
           "country": "China",
           "code": "cn"
-        },
-        {
-          "id": "jerusalem",
-          "name": "Jerusalem",
-          "image": "/images/asia/jerusalem.png",
-          "country": "Israel",
-          "code": "il"
         },
         {
           "id": "dammam",
@@ -250,27 +110,6 @@
           "code": "sa"
         },
         {
-          "id": "penang_island",
-          "name": "Ilha de Penang",
-          "image": "/images/asia/penang_island.png",
-          "country": "Malásia",
-          "code": "my"
-        },
-        {
-          "id": "kyoto",
-          "name": "Quioto",
-          "image": "/images/asia/kyoto.png",
-          "country": "Japão",
-          "code": "jp"
-        },
-        {
-          "id": "zhuhai",
-          "name": "Zhuhai",
-          "image": "/images/asia/zhuhai.png",
-          "country": "China",
-          "code": "cn"
-        },
-        {
           "id": "chiang_mai",
           "name": "Chiang Mai",
           "image": "/images/asia/chiang_mai.png",
@@ -278,39 +117,11 @@
           "code": "th"
         },
         {
-          "id": "kolkata",
-          "name": "Calcutá",
-          "image": "/images/asia/kolkata.png",
-          "country": "Índia",
-          "code": "in"
-        },
-        {
           "id": "cebu",
           "name": "Cebu",
           "image": "/images/asia/cebu.png",
           "country": "Philippines",
           "code": "ph"
-        },
-        {
-          "id": "tel_aviv",
-          "name": "Telavive",
-          "image": "/images/asia/tel_aviv.png",
-          "country": "Israel",
-          "code": "il"
-        },
-        {
-          "id": "guilin",
-          "name": "Guilin",
-          "image": "/images/asia/guilin.png",
-          "country": "China",
-          "code": "cn"
-        },
-        {
-          "id": "mugla",
-          "name": "Mugla",
-          "image": "/images/asia/mugla.png",
-          "country": "Turquia",
-          "code": "tr"
         },
         {
           "id": "chiba",
@@ -334,32 +145,11 @@
           "code": "id"
         },
         {
-          "id": "fukuoka",
-          "name": "Fukuoka",
-          "image": "/images/asia/fukuoka.png",
-          "country": "Japão",
-          "code": "jp"
-        },
-        {
           "id": "abu_dhabi",
           "name": "Abu Dhabi",
           "image": "/images/asia/abu_dhabi.png",
           "country": "Emirados Árabes Unidos",
           "code": "ae"
-        },
-        {
-          "id": "jeju",
-          "name": "Jeju",
-          "image": "/images/asia/jeju.png",
-          "country": "Coreia do Sul ",
-          "code": "kr"
-        },
-        {
-          "id": "krabi",
-          "name": "Krabi",
-          "image": "/images/asia/krabi.png",
-          "country": "Tailândia",
-          "code": "th"
         },
         {
           "id": "bangalore",
@@ -384,205 +174,128 @@
         {
           "id": "london",
           "name": "Londres",
-          "image": "/images/europa/london.png",
+          "image": "/images/europe/london.png",
           "country": "Reino Unido",
           "code": "gb"
         },
         {
           "id": "paris",
           "name": "Paris",
-          "image": "/images/europa/paris.png",
+          "image": "/images/europe/paris.png",
           "country": "França",
           "code": "fr"
         },
         {
           "id": "roma",
           "name": "Roma",
-          "image": "/images/europa/roma.png",
+          "image": "/images/europe/roma.png",
           "country": "Itália",
           "code": "it"
         },
         {
           "id": "praga",
           "name": "Praga",
-          "image": "/images/europa/praga.png",
+          "image": "/images/europe/praga.png",
           "country": "República Tcheca",
           "code": "cz"
         },
         {
           "id": "amsterdam",
           "name": "Amsterdã",
-          "image": "/images/europa/amsterdam.png",
+          "image": "/images/europe/amsterdam.png",
           "country": "Holanda",
           "code": "nl"
         },
         {
           "id": "barcelona",
           "name": "Barcelona",
-          "image": "/images/europa/barcelona.png",
+          "image": "/images/europe/barcelona.png",
           "country": "Espanha",
           "code": "es"
         },
         {
           "id": "milan",
           "name": "Milão",
-          "image": "/images/europa/milan.png",
+          "image": "/images/europe/milan.png",
           "country": "Itália",
           "code": "it"
         },
         {
           "id": "vienna",
           "name": "Viena",
-          "image": "/images/europa/vienna.png",
+          "image": "/images/europe/vienna.png",
           "country": "Austria",
           "code": "at"
         },
         {
           "id": "berlin",
           "name": "Berlin",
-          "image": "/images/europa/berlin.png",
+          "image": "/images/europe/berlin.png",
           "country": "Alemanha",
           "code": "de"
         },
         {
           "id": "athens",
           "name": "Atenas",
-          "image": "/images/europa/athens.png",
+          "image": "/images/europe/athens.png",
           "country": "Grécia",
           "code": "gr"
         },
         {
           "id": "moscow",
           "name": "Moscou",
-          "image": "/images/europa/moscow.png",
+          "image": "/images/europe/moscow.png",
           "country": "Rússia",
           "code": "ru"
         },
         {
-          "id": "venice",
-          "name": "Veneza",
-          "image": "/images/europa/venice.png",
-          "country": "Itália",
-          "code": "it"
-        },
-        {
-          "id": "madrid",
-          "name": "Madri",
-          "image": "/images/europa/madrid.png",
-          "country": "Espanha",
-          "code": "es"
-        },
-        {
           "id": "dublin",
           "name": "Dublin",
-          "image": "/images/europa/dublin.png",
+          "image": "/images/europe/dublin.png",
           "country": "Irlanda",
           "code": "ie"
         },
         {
           "id": "florence",
           "name": "Florença",
-          "image": "/images/europa/florence.png",
+          "image": "/images/europe/florence.png",
           "country": "Itália",
           "code": "it"
         },
         {
-          "id": "munich",
-          "name": "Munique",
-          "image": "/images/europa/munich.png",
-          "country": "Alemanha",
-          "code": "de"
-        },
-        {
-          "id": "saint_petersburg",
-          "name": "São Petersburgo",
-          "image": "/images/europa/saint_petersburg.png",
-          "country": "Rússia",
-          "code": "ru"
-        },
-        {
           "id": "brussels",
           "name": "Bruxelas",
-          "image": "/images/europa/brussels.png",
+          "image": "/images/europe/brussels.png",
           "country": "Bélgica",
           "code": "be"
         },
         {
           "id": "budapest",
           "name": "Budapeste",
-          "image": "/images/europa/budapest.png",
+          "image": "/images/europe/budapest.png",
           "country": "Hungria",
           "code": "hu"
         },
         {
           "id": "lisbon",
           "name": "Lisboa",
-          "image": "/images/europa/lisbon.png",
+          "image": "/images/europe/lisbon.png",
           "country": "Portugal",
           "code": "pt"
-        },
-        {
-          "id": "heraklion",
-          "name": "Iráklio",
-          "image": "/images/europa/heraklion.png",
-          "country": "Grécia",
-          "code": "gr"
         },
         {
           "id": "copenhagen",
           "name": "Copenhage",
-          "image": "/images/europa/copenhagen.png",
+          "image": "/images/europe/copenhagen.png",
           "country": "Dinamarca",
           "code": "dk"
         },
         {
-          "id": "krakow",
-          "name": "Cracóvia",
-          "image": "/images/europa/krakow.png",
-          "country": "Polônia",
-          "code": "pl"
-        },
-        {
-          "id": "warsaw",
-          "name": "Varsóvia",
-          "image": "/images/europa/warsaw.png",
-          "country": "Polônia",
-          "code": "pl"
-        },
-        {
-          "id": "frankfurt",
-          "name": "Frankfurt",
-          "image": "/images/europa/frankfurt.png",
-          "country": "Alemanha",
-          "code": "de"
-        },
-        {
-          "id": "stockholm",
-          "name": "Estocolmo",
-          "image": "/images/europa/stockholm.png",
-          "country": "Suécia",
-          "code": "se"
-        },
-        {
           "id": "nice",
           "name": "Nice",
-          "image": "/images/europa/nice.png",
+          "image": "/images/europe/nice.png",
           "country": "França",
           "code": "fr"
-        },
-        {
-          "id": "porto",
-          "name": "Porto",
-          "image": "/images/europa/porto.png",
-          "country": "Portugal",
-          "code": "pt"
-        },
-        {
-          "id": "rhodes",
-          "name": "Rodes",
-          "image": "/images/europa/rhodes.png",
-          "country": "Grécia",
-          "code": "gr"
         }
       ]
     },
@@ -600,91 +313,91 @@
         {
           "id": "new_york",
           "name": "Nova Iorque",
-          "image": "/images/americas/new_york.png",
+          "image": "/images/america/new_york.png",
           "country": "Estados Unidos",
           "code": "us"
         },
         {
           "id": "miami",
           "name": "Miami",
-          "image": "/images/americas/miami.png",
+          "image": "/images/america/miami.png",
           "country": "Estados Unidos",
           "code": "us"
         },
         {
           "id": "los_angeles",
           "name": "Los Angeles",
-          "image": "/images/americas/los_angeles.png",
+          "image": "/images/america/los_angeles.png",
           "country": "Estados Unidos",
           "code": "us"
         },
         {
           "id": "las_vegas",
           "name": "Las Vegas",
-          "image": "/images/americas/las_vegas.png",
+          "image": "/images/america/las_vegas.png",
           "country": "Estados Unidos",
           "code": "us"
         },
         {
           "id": "cancun",
           "name": "Cancún",
-          "image": "/images/americas/cancun.png",
+          "image": "/images/america/cancun.png",
           "country": "México",
           "code": "us"
         },
         {
           "id": "orlando",
           "name": "Orlando",
-          "image": "/images/americas/orlando.png",
+          "image": "/images/america/orlando.png",
           "country": "Estados Unidos",
           "code": "us"
         },
         {
           "id": "toronto",
           "name": "Toronto",
-          "image": "/images/americas/toronto.png",
+          "image": "/images/america/toronto.png",
           "country": "Canadá",
           "code": "ca"
         },
         {
           "id": "vancouver",
           "name": "Vancouver",
-          "image": "/images/americas/vancouver.png",
+          "image": "/images/america/vancouver.png",
           "country": "Canadá",
           "code": "ca"
         },
         {
           "id": "san_francisco",
           "name": "São Francisco",
-          "image": "/images/americas/san_francisco.png",
+          "image": "/images/america/san_francisco.png",
           "country": "Estados Unidos",
           "code": "us"
         },
         {
           "id": "honolulu",
           "name": "Honolulu",
-          "image": "/images/americas/honolulu.png",
+          "image": "/images/america/honolulu.png",
           "country": "Estados Unidos",
           "code": "us"
         },
         {
           "id": "buenos_aires",
           "name": "Buenos Aires",
-          "image": "/images/americas/buenos_aires.png",
+          "image": "/images/america/buenos_aires.png",
           "country": "Argentina",
           "code": "ar"
         },
         {
           "id": "lima",
           "name": "Lima",
-          "image": "/images/americas/lima.png",
+          "image": "/images/america/lima.png",
           "country": "Peru",
           "code": "pe"
         },
         {
           "id": "rio_de_janeiro",
           "name": "Rio de Janeiro",
-          "image": "/images/americas/rio_de_janeiro.png",
+          "image": "/images/america/rio_de_janeiro.png",
           "country": "Brasil",
           "code": "br"
         }

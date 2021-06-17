@@ -16,15 +16,12 @@ import { IoMdInformationCircleOutline } from "react-icons/io";
 import { CitiesPlus100 } from "./CitiesPlus100";
 
 export function ContinentDetail({ continent }: ContinentProps) {
-  console.log("CONTINENT:", continent);
-
   return (
     <Flex
       as="section"
       direction="column"
       w="100%"
       maxW={1160}
-      // paddingX="36"
       marginLeft="auto"
       marginRight="auto"
       paddingTop="20"
@@ -54,10 +51,7 @@ export function ContinentDetail({ continent }: ContinentProps) {
           />
         </Flex>
       </SimpleGrid>
-      <CitiesPlus100 />
-      {/* <h1>{continent.name}</h1>
-      <h1>{continent.id}</h1>
-      <h1>{continent.countries}</h1> */}
+      <CitiesPlus100 continent={continent} />
     </Flex>
   );
 }
