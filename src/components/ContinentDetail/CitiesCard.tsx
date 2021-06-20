@@ -1,13 +1,4 @@
-import {
-  VStack,
-  Heading,
-  Box,
-  Image,
-  Badge,
-  Text,
-  Flex,
-  HStack,
-} from "@chakra-ui/react";
+import { Box, Image, Text, Flex, HStack } from "@chakra-ui/react";
 
 import { CircleFlag } from "react-circle-flags";
 import { City } from "../../models";

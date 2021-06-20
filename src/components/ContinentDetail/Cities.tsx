@@ -1,19 +1,8 @@
-import {
-  VStack,
-  Heading,
-  Box,
-  Image,
-  Text,
-  Flex,
-  SimpleGrid,
-  HStack,
-} from "@chakra-ui/react";
-import { CircleFlag } from "react-circle-flags";
+import { VStack, Heading, Box, SimpleGrid } from "@chakra-ui/react";
 import { ContinentProps } from "../../models";
 import { CitiesCard } from "./CitiesCard";
 
 export function Cities({ continent }: ContinentProps) {
-  console.log("CONTINENT:", continent);
   return (
     <Box pt="20" pb="8">
       <Heading fontWeight="medium" fontSize="4xl" pb="10">
@@ -23,6 +12,7 @@ export function Cities({ continent }: ContinentProps) {
         <SimpleGrid columns={[1, 2, 4]} spacing={10} width="full">
           {continent?.cities?.map((city) => (
             <CitiesCard
+              key={city.id}
               id={city.id}
               name={city.name}
               country={city.country}
